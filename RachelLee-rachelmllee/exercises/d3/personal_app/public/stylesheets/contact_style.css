@@ -1,0 +1,59 @@
+header {
+	text-align: center;
+  	background: url("http://i.imgur.com/lpDsgQt.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	min-width: 100%;
+}
+body {
+	font-family: 'Slabo 27px', serif;
+	margin: 0 auto;
+	text-align: center;
+}
+img {
+      object-fit: cover;
+      text-align: center;
+      margin: 40px 0 0 0;
+      border: 5px solid white;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+}
+h1 {
+	padding: 0 0 40px 0;
+	font-family: 'Abril Fatface', serif;
+}
+header h1 {
+  	font-family: 'Londrina Shadow', cursive;
+  	font-size: 50px;
+  	font-weight: bold;
+  	color: white;
+}
+a {
+	color: #87ceeb;
+}
+ul {
+	padding: 0;
+}
+li {
+	display: inline;
+	padding: 0 10px;
+}
+h2 {
+	margin: 0;
+}
+h3 {
+	margin: 0 0 20px 0;
+}
+.navigation {
+	background-color: grey;
+	color: white;
+	padding: 40px 0 30px 0;
+}
+.logo {
+	width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20%;
+    margin: 20px 0 40px 0;
+}

@@ -1,0 +1,26 @@
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: left;
+	margin: 40px;
+}
+h4 {
+	text-align: left;
+	margin: 40px;
+}
+ul {
+	text-align: center;
+	padding: 10px;
+}
+li {
+	display: inline;
+}
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.buttons {
+	margin: 0 40px;
+}

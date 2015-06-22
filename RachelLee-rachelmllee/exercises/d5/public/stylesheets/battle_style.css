@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+body {
+	background: url("http://i279.photobucket.com/albums/kk121/springhi1er/fighting.gif");
+  	background-size: 60%;
+  	text-align: center;
+}
+img {
+	width: 350px;
+	height: 350px;
+	margin: 40px 40px 10px 40px;
+}
+.see_results {
+	width: 200px;
+	height: auto;
+}

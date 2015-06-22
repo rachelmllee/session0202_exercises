@@ -1,0 +1,89 @@
+<head> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='/stylesheets/result_style.css' type="text/css" rel='stylesheet'>
+</head>
+
+<body>
+	<% def insert_person(person_name) %>
+	<% if person_name == "aaron" %>
+	<img src="/img/aaron.jpg">
+	<% elsif person_name == "alec" %>
+	<img src="/img/alex.jpg">
+	<% elsif person_name == "alexis" %>
+	<img src="/img/alexis.jpg">
+	<% elsif person_name == "amanda" %>
+	<img src="/img/amanda.jpg">
+	<% elsif person_name == "annelie" %>
+	<img src="/img/annelie.jpg">
+	<% elsif person_name == "brian" %>
+	<img src="/img/brian.jpg">
+	<% elsif person_name == "chris" %>
+	<img src="/img/chris.jpg">
+	<% elsif person_name == "daniel" %>
+	<img src="/img/daniel.jpg">
+	<% elsif person_name == "emily" %>
+	<img src="/img/emily.jpg">
+	<% elsif person_name == "erica" %>
+	<img src="/img/erica.jpg">
+	<% elsif person_name == "ian" %>
+	<img src="/img/ian.jpg">
+	<% elsif person_name == "isabel" %>
+	<img src="/img/isabel.jpg">
+	<% elsif person_name == "jessie" %>
+	<img src="/img/jessie.jpg">
+	<% elsif person_name == "josh" %>
+	<img src="/img/josh.jpg">
+	<% elsif person_name == "julian" %>
+	<img src="/img/julian.jpg">
+	<% elsif person_name == "julianne" %>
+	<img src="/img/julianne.jpg">
+	<% elsif person_name == "khangwelo" %>
+	<img src="/img/khangwelo.jpg">
+	<% elsif person_name == "leila" %>
+	<img src="/img/leila.jpg">
+	<% elsif person_name == "melissa" %>
+	<img src="/img/melissa.jpg">
+	<% elsif person_name == "praise" %>
+	<img src="/img/praise.png">
+	<% elsif person_name == "rachel" %>
+	<img src="/img/rachel.jpg">
+	<% elsif person_name == "rebecca" %>
+	<img src="/img/rebecca.jpg">
+	<% elsif person_name == "richard" %>
+	<img src="/img/richard.jpg">
+	<% elsif person_name == "robert_k" %>
+	<img src="/img/robert_k.jpg">
+	<% elsif person_name == "sammy" %>
+	<img src="/img/sammy.jpg">
+	<% elsif person_name == "sarah" %>
+	<img src="/img/sarah.jpg">
+	<% elsif person_name == "seth" %>
+	<img src="/img/seth.jpg">
+	<% elsif person_name == "tali" %>
+	<img src="/img/tali.jpg">
+	<% elsif person_name == "tebogo" %>
+	<img src="/img/tebogo.jpg">
+	<% elsif person_name == "therveshan" %>
+	<img src="/img/therveshan.jpg">
+	<% elsif person_name == "thobs" %>
+	<img src="/img/thobs.jpg">
+	<% elsif person_name == "wes" %>
+	<img src="/img/wes.jpg">
+	<% else %>
+	<img src="/img/robert_l.jpg">
+	<% end %>
+	<% end %>
+
+	<h2><%= @battle %></h2>
+	<% if @fighter_one_performance > @fighter_two_performance %>
+		<p> <% insert_person(@fighter_one) %> </p>
+		<h3> Winner! </h3>
+	<% elsif @fighter_two_performance > @fighter_one_performance %>
+		<p> <% insert_person(@fighter_two) %> </p>
+		<h3> Winner! </h3>
+	<% else %>
+		<p><img src="http://uol.brandmerchandise.com/images/fullsize/ULU30000-1.jpg"></p>
+		<h3> Tie! </h3>
+	<% end %>
+
+</body>

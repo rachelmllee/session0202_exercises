@@ -1,0 +1,78 @@
+<% def insert_fighter(fighter_name) %>
+	<% if fighter_name == "aaron" %>
+		<%= image_tag "aaron.jpg" %>
+	<% elsif fighter_name == "alec" %>
+		<%= image_tag "alec.jpg" %>
+	<% elsif fighter_name == "alexis" %>
+		<%= image_tag "alexis.jpg" %>
+	<% elsif fighter_name == "amanda" %>
+		<%= image_tag "amanda.jpg" %>
+	<% elsif fighter_name == "annelie" %>
+		<%= image_tag "annelie.jpg" %>
+	<% elsif fighter_name == "brian" %>
+		<%= image_tag "brian.jpg" %>
+	<% elsif fighter_name == "chris" %>
+		<%= image_tag "chris.jpg" %>
+	<% elsif fighter_name == "daniel" %>
+		<%= image_tag "daniel.jpg" %>
+	<% elsif fighter_name == "emily" %>
+		<%= image_tag "emily.jpg" %>
+	<% elsif fighter_name == "erica" %>
+		<%= image_tag "erica.jpg" %>
+	<% elsif fighter_name == "ian" %>
+		<%= image_tag "ian.jpg" %>
+	<% elsif fighter_name == "isabel" %>
+		<%= image_tag "isabel.jpg" %>
+	<% elsif fighter_name == "jessie" %>
+		<%= image_tag "jessie.jpg" %>
+	<% elsif fighter_name == "josh" %>
+		<%= image_tag "josh.jpg" %>
+	<% elsif fighter_name == "julian" %>
+		<%= image_tag "julian.jpg" %>
+	<% elsif fighter_name == "julianne" %>
+		<%= image_tag "julianne.jpg" %>
+	<% elsif fighter_name == "khangwelo" %>
+		<%= image_tag "khangwelo.jpg" %>
+	<% elsif fighter_name == "leila" %>
+		<%= image_tag "leila.jpg" %>
+	<% elsif fighter_name == "melissa" %>
+		<%= image_tag "melissa.jpg" %>
+	<% elsif fighter_name == "praise" %>
+		<%= image_tag "praise.png" %>
+	<% elsif fighter_name == "rachel" %>
+		<%= image_tag "rachel.jpg" %>
+	<% elsif fighter_name == "rebecca" %>
+		<%= image_tag "rebecca.jpg" %>
+	<% elsif fighter_name == "richard" %>
+		<%= image_tag "richard.jpg" %>
+	<% elsif fighter_name == "robert_k" %>
+		<%= image_tag "robert_k.jpg" %>
+	<% elsif fighter_name == "sammy" %>
+		<%= image_tag "sammy.jpg" %>
+	<% elsif fighter_name == "sarah" %>
+		<%= image_tag "sarah.jpg" %>
+	<% elsif fighter_name == "seth" %>
+		<%= image_tag "seth.jpg" %>
+	<% elsif fighter_name == "tali" %>
+		<%= image_tag "tali.jpg" %>
+	<% elsif fighter_name == "tebogo" %>
+		<%= image_tag "tebogo.jpg" %>
+	<% elsif fighter_name == "therveshan" %>
+		<%= image_tag "therveshan.jpg" %>
+	<% elsif fighter_name == "thobs" %>
+		<%= image_tag "thobs.jpg" %>
+	<% elsif fighter_name == "wes" %>
+		<%= image_tag "wes.jpg" %>
+	<% else %>
+		<%= image_tag "robert_l.jpg" %>
+	<% end %>
+<% end %>
+
+<h3>Fight to the Death: <%= @battle %></h3>
+<% insert_fighter(@fighter_one) %>
+<% insert_fighter(@fighter_two) %>
+
+<div>
+	<a href= "<%=@link%>"><img class="see_results" 
+	src="https://solforgegame.com/wp-content/uploads/2012/12/battle-sml.png"></a>
+</div>

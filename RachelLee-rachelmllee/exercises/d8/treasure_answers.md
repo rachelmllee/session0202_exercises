@@ -1,5 +1,5 @@
 1. How many routes does this project have?
-> 10.
+> 9.
 2. How many models?
 > 2. 
 3. How many controllers?
@@ -9,7 +9,7 @@
 5. Which view allows us to create a new treasure?
 > new.html.erb, under the treasures folder.
 6. Which view allows us to comment on an existing treasure?
-> _form.html.erb, under the comments folder.
+> show.html.erb, under the treasures folder.
 7. Which view is our home page?
 > index.html.erb, under the treasures folder.
 8. Which view lists all the treasures?

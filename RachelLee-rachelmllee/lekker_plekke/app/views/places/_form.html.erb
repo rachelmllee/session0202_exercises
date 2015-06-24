@@ -1,0 +1,23 @@
+<%= form_for @place do |f| %>
+	<p>
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+	</p>
+
+	<p>
+		<%= f.label :activity %>
+		<%= f.text_field :activity %>
+	</p>
+
+	<p>
+		<%= f.label :district %>
+		<%= f.text_field :district %>
+	</p>
+
+	<p>
+		<%= f.label :visited? %>
+		<%= f.text_field :visited %>
+	</p>
+
+	<%= f.submit %>
+<% end %>

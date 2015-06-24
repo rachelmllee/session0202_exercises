@@ -1,0 +1,9 @@
+<h1><%= @place.name %></h1>
+
+<p>District: <%= @place.district %><br>
+Activity: <%= @place.activity %><br>
+Visited: <%= @place.visited %></p>
+
+<%= link_to 'Edit', edit_place_path(@place) %> |
+<%= link_to 'Delete', place_path(@place), method: :delete %> |
+<%= link_to 'Back', places_path %>

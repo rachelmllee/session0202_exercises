@@ -3,9 +3,9 @@
 
 Place.delete_all
 
-Place.create! name: 'Rhodes Memorial', activity: 'beautiful views', visited: true
+Place.create! name: 'Rhodes Memorial', activity: 'beautiful views', district: 'Devil\'s Peak', visited: true
 Place.create! name: 'Old Biscuit Mill', activity: 'day and night markets', district: 'Woodstock', visited: true
-Place.create! name: 'Table Mountain', activity: 'hiking', visited: false
-Place.create! name: 'Sababa', activity: 'restaurant', visited: true
-Place.create! name: 'Lions Head', activity: 'hiking', visited: true
-Place.create! name: 'Waterfront', activity: 'shopping, dining', visited: true
+Place.create! name: 'Table Mountain', activity: 'hiking', district: 'Table Mountain', visited: false
+Place.create! name: 'Sababa', activity: 'restaurant', district: 'Central Business District', visited: true
+Place.create! name: 'Lions Head', activity: 'hiking', district: 'Table Mountain', visited: true
+Place.create! name: 'Waterfront', activity: 'shopping, dining', district: 'Waterfront V&A',visited: true

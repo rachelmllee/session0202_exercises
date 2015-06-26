@@ -4,6 +4,12 @@
 Activity: <%= @place.activity %><br>
 Visited: <%= @place.visited %></p>
 
+<h2>Comments</h2>
+<%= render @place.comments %>
+
+<h3>Add a comment:</h3>
+<%= render 'comments/form' %>
+
 <%= link_to 'Edit', edit_place_path(@place) %> |
 <%= link_to 'Delete', place_path(@place), method: :delete %> |
 <%= link_to 'Back', places_path %>

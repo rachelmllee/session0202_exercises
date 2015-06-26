@@ -5,10 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Londrina+Shadow|Slabo+27px|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<header>
+		<div class="my_header">
+			<h1>Cool Places in Cape Town</h1>
+			<%= image_tag("http://www.jobmail.co.za/blog/wp-content/uploads/2015/05/Retail-Jobs-Cape-Town.jpeg") %>
+		</div>
+	</header>
 
-<%= yield %>
+	<%= yield %>
 
 </body>
 </html>
